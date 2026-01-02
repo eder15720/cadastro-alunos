@@ -23,13 +23,13 @@
     <input type="number" formControlName="nota2" placeholder="Nota 2" class="form-control">
 
     @if (formulario.get('nota2').hasError('required') && formulario.get('nota2').touched) {
-        <p class="alert alert-warning">O campo Nota2 é obrigatório</p>
+        <p class="alert alert-warning">O campo Nota 2 é obrigatório</p>
     }
     @if (formulario.get('nota2').hasError('min') && formulario.get('nota2').touched) {
-        <p class="alert alert-warning">O campo Nota2 precisa estar entre 0 e 10.</p>
+        <p class="alert alert-warning">O campo Nota 2 precisa estar entre 0 e 10.</p>
     }
     @if (formulario.get('nota2').hasError('max') && formulario.get('nota2').touched) {
-        <p class="alert alert-warning">O campo Nota2 precisa estar entre 0 e 10.</p>
+        <p class="alert alert-warning">O campo Nota 2 precisa estar entre 0 e 10.</p>
     }
 
     @if (btnCadastrar) {
